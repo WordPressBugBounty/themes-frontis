@@ -1,7 +1,7 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"title": "Fuchsia Blue",
+	"title": "Flamingo",
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -10,52 +10,52 @@
 			"defaultPalette": false,
 			"palette": [
 				{
-					"color": "#8054FF",
+					"color": "#FF4B1F",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#F4F0FF",
+					"color": "#FFEDE9",                                                 
 					"name": "Primary 50",
 					"slug": "primary-50"
 				},
 				{
-					"color": "#E4DBFF",
+					"color": "# FFDBD2",
 					"name": "Primary 100",
 					"slug": "primary-100"
 				},
 				{
-					"color": "#CDBDFF",
+					"color": "#FFB7A5",
 					"name": "Primary 200",
 					"slug": "primary-200"
 				},
 				{
-					"color": "#B399FF",
+					"color": "#FF9379",
 					"name": "Primary 300",
 					"slug": "primary-300"
 				},
 				{
-					"color": "#9875FF",
+					"color": "#FF6F4C",
 					"name": "Primary 400",
 					"slug": "primary-400"
 				},
 				{
-					"color": "#6F30F7",
+					"color": "#CC3C19",
 					"name": "Primary 600",
 					"slug": "primary-600"
 				},
 				{
-					"color": "#621EE3",
+					"color": "#992D13",
 					"name": "Primary 700",
 					"slug": "primary-700"
 				},
 				{
-					"color": "#5118BF",
+					"color": "#661E0C",
 					"name": "Primary 800",
 					"slug": "primary-800"
 				},
 				{
-					"color": "#280B6A",
+					"color": "#330F06",
 					"name": "Primary 950",
 					"slug": "primary-950"
 				},
@@ -75,7 +75,7 @@
 					"slug": "neutral-50"
 				},
 				{
-					"color": "#E1E3E8",
+					"color": "#4D1709",
 					"name": "Neutral 100",
 					"slug": "neutral-100"
 				},
@@ -125,12 +125,12 @@
 					"slug": "white"
 				},
 				{
-					"color": "#F1ECF9",
+					"color": "#FFF9EB",
 					"name": "Body Purple",
 					"slug": "body-purple"
 				},
 				{
-					"color": "#555E72",
+					"color": "#FFF9EB",
 					"name": "Body Neutral",
 					"slug": "body-neutral"
 				},
@@ -145,12 +145,12 @@
 					"slug": "text-base"
 				},
 				{
-					"color": "#280B6A",
+					"color": "#FFFFFF",
 					"name": "Heading",
 					"slug": "heading"
 				},
 				{
-					"color": "#44169C",
+					"color": "#4D1709",
 					"name": "Primary",
 					"slug": "primary"
 				}
@@ -158,24 +158,24 @@
 			"duotone": [
 				{
                     "colors": [
-                        "#8054FF",
-                        "#8054FF"
+                        "#FF4B1F",
+                        "#FF4B1F"
                     ],
                     "name": "Base",
 					"slug": "base"
                 },
                 {
                     "colors": [
-                        "#280B6A",
-                        "#280B6A"
+                        "#FFFFFF",
+                        "#FFFFFF"
                     ],
 					"name": "Primary",
                     "slug": "primary"
                 },
 				{
                     "colors": [
-                        "#F89B2E",
-                        "#F89B2E"
+                        "#FF4B1F",
+                        "#FF4B1F"
                     ],
 					"name": "Rating",
                     "slug": "rating"
@@ -441,8 +441,8 @@
 	},
 	"styles": {
 		"color": {
-			"background": "var(--wp--preset--color--white)",
-			"text": "var(--wp--preset--color--body-neutral)"
+			"background": "var(--wp--preset--color--primary-950)",
+			"text": "var(--wp--preset--color--primary-50)"
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|work-sans",
@@ -474,7 +474,7 @@
 							"width": "1px"
 						},
 						"color": {
-							"text": "var(--wp--preset--color--primary-950)"
+							"text": "var(--wp--preset--color--white)"
 						},
 						"typography": {
 							"fontSize": "var:preset|font-size|p-2",
@@ -500,7 +500,7 @@
 							"fontWeight": "500"
 						},
 						"color": {
-							"text": "var:preset|color|white"
+							"text": "var:preset|color|primary-950"
 						},
 						"css": ".wp-block-button__link {background-color: var(--wp--preset--color--white-background)}; .wp-block-button__link:not(.has-background):hover {background-color: var(--wp--preset--color--primary);}",
 						"spacing": {

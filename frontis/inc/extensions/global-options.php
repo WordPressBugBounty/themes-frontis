@@ -76,7 +76,7 @@ function global_options( string $block_content, array $block ): string {
 
 	if ( $transparent_header && isset( $block['attrs']['slug'] ) && 'header' === $block['attrs']['slug'] ) {
 
-		$transparent_header_color_gb = ! empty( $theme_options['transparentHeaderColor'] ) ? $theme_options['transparentHeaderColor'] : '#FFFFFF';
+		$transparent_header_color_gb = ! empty( $theme_options['transparentHeaderColor'] ) ? $theme_options['transparentHeaderColor'] : 'transparent';
 
 		// Get the post-specific sticky header color
 		$post_id = get_the_ID();

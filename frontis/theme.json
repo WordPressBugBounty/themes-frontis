@@ -617,7 +617,6 @@
 				}
 			},
 			"core/post-comments-form": {
-				"css": "& textarea, & input:not([type='submit']) { border-radius: 1rem; border-color: var(--wp--preset--color--primary); }",
 				"typography": {
 					"fontSize": "var:preset|font-size|p-2"
 				},

@@ -123,6 +123,17 @@ function frontis_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', FRONTIS_NAMESPACE . 'frontis_enqueue_scripts' );
 
+
+function frontis_enqueue_admin_scripts() {
+	wp_enqueue_style(
+		frontis_prefix( 'admin-styles' ),
+		get_template_directory_uri() . '/assets/css/admin.css',
+		array(),
+		FRONTIS_VERSION
+	);
+}
+add_action( 'admin_enqueue_scripts', FRONTIS_NAMESPACE . 'frontis_enqueue_admin_scripts' );
+
 /**
  * Enqueue scripts and styles for the block editor.
  */

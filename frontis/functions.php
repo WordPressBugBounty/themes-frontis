@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Define theme constants
  */
 const FRONTIS_PREFIX     = 'FWP_';
-const FRONTIS_VERSION    = '1.1.7';
+const FRONTIS_VERSION    = '1.1.8';
 const FRONTIS_SLUG       = 'frontis';
 const FRONTIS_NAME       = 'Frontis';
 const FRONTIS_TEXTDOMAIN = 'frontis';
@@ -36,6 +36,7 @@ require_once FRONTIS_DIR . 'inc/theme-setup.php';
 require_once FRONTIS_DIR . 'inc/enqueue-scripts.php';
 require_once FRONTIS_DIR . 'inc/extensions/all.php';
 require_once FRONTIS_DIR . 'inc/admin/settings.php';
+require_once FRONTIS_DIR . 'inc/admin/dashboard/dashboard.php';
 require_once FRONTIS_DIR . 'inc/tgm-plugin-activation.php';
 require_once FRONTIS_DIR . 'inc/add-plugin.php';
 require_once FRONTIS_DIR . 'inc/block-styles/all.php';
