@@ -58,11 +58,11 @@ function fb_register_required_plugins() {
 			'slug'               => 'contact-form-7',
 			'required'           => true,
 		),
-		// array(
-		// 	'name'               => esc_html__('One Click Demo Import','frontis'),
-		// 	'slug'               => 'one-click-demo-import',
-		// 	'required'           => false,
-		// )
+		array(
+			'name'               => esc_html__('One Click Demo Import','frontis'),
+			'slug'               => 'one-click-demo-import',
+			'required'           => false,
+		)
 	);
 
 	/*

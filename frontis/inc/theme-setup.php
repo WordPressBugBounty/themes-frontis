@@ -307,13 +307,13 @@ appsero_init_tracker_frontis();
  * [ocdi_import_files description]
  * @return [type] [description]
  */
-// function frontis_import_files() {
-//     return array(
-//         array(
-//             'import_file_name'           => esc_html__('Frontis Demo Data', 'frontis'),
-//             'import_file_url'            => get_template_directory_uri().'/demo-data/frontis-theme.xml',
-//             'import_notice'              => esc_html__( 'After you import this demo, you will have to setup the Instagram Widget For WP separately.', 'frontis' ),
-//         ),
-//     );
-// }
-// add_filter( 'pt-ocdi/import_files', FRONTIS_NAMESPACE . 'frontis_import_files' );
+function frontis_import_files() {
+    return array(
+        array(
+            'import_file_name'           => esc_html__('Frontis Demo Data', 'frontis'),
+            'import_file_url'            => 'http://boomdevstheme.com/demo/frontis/frontis-theme.xml',
+            'import_notice'              => esc_html__( 'After you import this demo, you will have to setup the Instagram Widget For WP separately.', 'frontis' ),
+        ),
+    );
+}
+add_filter( 'pt-ocdi/import_files', FRONTIS_NAMESPACE . 'frontis_import_files' );
