@@ -30,6 +30,11 @@ function enqueue_editor_block_styles(): void {
         'post-formats',
         [ 'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video' ]
     );
+    // Add support for theme activation redirect.
+    if (is_admin() && isset($_GET['activated'])) {
+        wp_safe_redirect(admin_url('admin.php?page=frontis'));
+        exit;
+    }
 
 }
 add_action( 'after_setup_theme', FRONTIS_NAMESPACE . 'enqueue_editor_block_styles' );
@@ -317,3 +322,17 @@ function frontis_import_files() {
     );
 }
 add_filter( 'pt-ocdi/import_files', FRONTIS_NAMESPACE . 'frontis_import_files' );
+
+
+function frontis_remove_notices() {
+    // Check if we're on our custom page
+    $screen = get_current_screen();
+    if (isset($screen->id) && $screen->id === 'toplevel_page_frontis') {
+        // Remove all notice hooks
+        remove_all_actions('admin_notices');
+        remove_all_actions('all_admin_notices');
+    }
+}
+
+// Add this action to remove notices
+add_action('admin_head', FRONTIS_NAMESPACE . 'frontis_remove_notices');

@@ -82,7 +82,7 @@ function frontis_dashboard_content() {
                     <ul class="plugin-list">
                         <li>
                             <div>
-                                <h4><?php esc_html_e('Frontis Blog', 'frontis'); ?></h4>
+                                <h4><?php esc_html_e('Frontis Blocks', 'frontis'); ?></h4>
                                 <p><?php esc_html_e('Free WordPress Page Builder.', 'frontis'); ?></p>
                             </div>
                             <a href="<?php echo esc_url( $frontis_blocks_url ); ?>" class="install-btn"><?php esc_html_e('Install', 'frontis'); ?></a>
