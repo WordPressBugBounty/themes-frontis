@@ -144,6 +144,9 @@ License : CC0 1.0 Universal (CC0 1.0)
 
 
 == Changelog ==
+= 1.1.12 = 
+Fix page template issues
+
 = 1.1.11 = 
 Added Some patterns.
 
