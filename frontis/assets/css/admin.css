@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 /* Variables */
-p {
-  margin: 0; }
-
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0; }
@@ -162,5 +159,7 @@ a {
             .wrap.frontis-dashboard-wrapper .frontis-dashboard-container .frontis-dashboard-cards-wrapper .extend-website .plugin-list li .activate-btn {
               background: #4CAF50;
               color: white; }
+    .wrap.frontis-dashboard-wrapper .frontis-dashboard-container p {
+      margin: 0; }
 
 /*# sourceMappingURL=admin.css.map */
