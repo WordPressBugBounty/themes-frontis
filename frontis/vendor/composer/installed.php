@@ -3,7 +3,7 @@
         'name' => 'wpmessiah/frontis',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'f2c2db9534121bc131d3a08ba030a1037c830e50',
+        'reference' => 'c320e1ac81ee88e403195a8be40756f9b2d5c8c7',
         'type' => 'wordpress-themes',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'wpmessiah/frontis' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'f2c2db9534121bc131d3a08ba030a1037c830e50',
+            'reference' => 'c320e1ac81ee88e403195a8be40756f9b2d5c8c7',
             'type' => 'wordpress-themes',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

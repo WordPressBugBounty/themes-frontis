@@ -124,3 +124,4 @@ function validate_color( $color ) {
     }
     return null;
 }
+

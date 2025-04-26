@@ -8,6 +8,7 @@
 
 namespace Frontis;
 
+
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
 }
@@ -336,3 +337,7 @@ function frontis_remove_notices() {
 
 // Add this action to remove notices
 add_action('admin_head', FRONTIS_NAMESPACE . 'frontis_remove_notices');
+
+// Disable the "_load_textdomain_just_in_time" notice
+add_filter( 'doing_it_wrong_trigger_error', '__return_false' );
+

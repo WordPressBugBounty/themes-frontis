@@ -1,8 +1,8 @@
 === Frontis ===
 Contributors: wpmessiah
 Requires at least: 6.4
-Tested up to: 6.7
-Stable tag: 1.1.14
+Tested up to: 6.8
+Stable tag: 1.1.15
 Requires PHP: 7.4
 License: GPL-2.0-or-later
 Tags: full-site-editing, blog, theme-options, rtl-language-support, full-width-template
@@ -144,6 +144,10 @@ License : CC0 1.0 Universal (CC0 1.0)
 
 
 == Changelog ==
+= 1.1.15 = 
+Fix text domain warning issues
+Fix RTL issues
+
 = 1.1.13 = 
 Fix page template issues
 

@@ -44,14 +44,12 @@ $images = [
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
-<h3 class="wp-block-heading has-text-align-left has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">
-                        Fast Loading Speed</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
+<h3 class="wp-block-heading has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">Fast Loading Speed</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}}} -->
-<p class="has-text-align-left has-text-color has-link-color" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0;font-size:18px">
-                        Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}}} -->
+<p class="has-text-color has-link-color" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0;font-size:18px">Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|spacing-8","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -76,13 +74,12 @@ $images = [
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
-<h3 class="wp-block-heading has-text-align-left has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">User-Friendly Design</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
+<h3 class="wp-block-heading has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">User-Friendly Design</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}}} -->
-<p class="has-text-align-left has-text-color has-link-color" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0;font-size:18px">
-                        Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}}} -->
+<p class="has-text-color has-link-color" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0;font-size:18px">Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|spacing-8","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -107,14 +104,12 @@ $images = [
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
-<h3 class="wp-block-heading has-text-align-left has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">
-                        Fast Loading Speed</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
+<h3 class="wp-block-heading has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">Fast Loading Speed</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}}} -->
-<p class="has-text-align-left has-text-color has-link-color" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0;font-size:18px">
-                        Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}}} -->
+<p class="has-text-color has-link-color" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0;font-size:18px">Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|spacing-8","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -141,13 +136,12 @@ $images = [
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
-<h3 class="wp-block-heading has-text-align-left has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">Fast Loading Speed</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
+<h3 class="wp-block-heading has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">Fast Loading Speed</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}}} -->
-<p class="has-text-align-left has-text-color has-link-color" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0;font-size:18px">
-                        Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}}} -->
+<p class="has-text-color has-link-color" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0;font-size:18px">Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|spacing-8","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -172,13 +166,12 @@ $images = [
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
-<h3 class="wp-block-heading has-text-align-left has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">User-Friendly Design</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
+<h3 class="wp-block-heading has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">User-Friendly Design</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}}} -->
-<p class="has-text-align-left has-text-color has-link-color" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0;font-size:18px">
-                        Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}}} -->
+<p class="has-text-color has-link-color" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0;font-size:18px">Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|spacing-8","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -203,13 +196,12 @@ $images = [
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
-<h3 class="wp-block-heading has-text-align-left has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">Customizable Templates</h3>
+<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-32","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"h6"} -->
+<h3 class="wp-block-heading has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-32);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">Customizable Templates</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"left","style":{"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}},"fontSize":"p-1"} -->
-<p class="has-text-align-left has-text-color has-link-color has-p-1-font-size" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0">
-                        Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-40","left":"0"}},"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}},"fontSize":"p-1"} -->
+<p class="has-text-color has-link-color has-p-1-font-size" style="color:#fff9eb;margin-top:var(--wp--preset--spacing--spacing-16);margin-right:0;margin-bottom:var(--wp--preset--spacing--spacing-40);margin-left:0">Corrupti maiores atque repellendus ratione omnis possimus. Eaque laudantium tenetur.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|spacing-8","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
