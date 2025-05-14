@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Define theme constants
  */
 const FRONTIS_PREFIX     = 'FWP_';
-const FRONTIS_VERSION    = '1.1.14'; 
+const FRONTIS_VERSION    = '1.1.16'; 
 const FRONTIS_SLUG       = 'frontis';
 const FRONTIS_NAME       = 'Frontis';
 const FRONTIS_TEXTDOMAIN = 'frontis';

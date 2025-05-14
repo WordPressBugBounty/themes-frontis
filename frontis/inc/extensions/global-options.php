@@ -49,7 +49,7 @@ function global_options( string $block_content, array $block ): string {
 
 	if ( $sticky_header && isset( $block['attrs']['slug'] ) && 'header' === $block['attrs']['slug'] ) {
 
-		$sticky_header_color_gb = ! empty( $theme_options['stickyHeaderColor'] ) ? $theme_options['stickyHeaderColor'] : '#FFFFFF';
+		$sticky_header_color_gb = ! empty( $theme_options['stickyHeaderColor'] ) ? $theme_options['stickyHeaderColor'] : '';
 	
 		// Get the post-specific sticky header color
 		$post_id = get_the_ID();
