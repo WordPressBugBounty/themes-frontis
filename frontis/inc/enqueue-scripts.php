@@ -37,6 +37,8 @@ function frontis_enqueue_scripts() {
 		$theme_version
 	);
 
+    $plugin_class = 'FrontisBlocks\Activator\Activator';
+
 	// Enqueue frontend scripts
 	wp_enqueue_script(
 		frontis_prefix( 'scripts' ),
@@ -155,6 +157,13 @@ function frontis_enqueue_block_editor_assets() {
 		true
 	);
 
+	$plugin_class = 'FrontisBlocks\Activator\Activator';
+
+	wp_localize_script(frontis_prefix( 'block-editor-script' ), 'frontis_theme_localize', array(
+        'logoUrl' => get_template_directory_uri() . '/assets/image/dodger-logo.webp',
+		'frontis_blocks' => class_exists($plugin_class)
+    ));
+
 	// Enqueue site editor script
 	wp_enqueue_script(
 		frontis_prefix( 'site-editor-script' ),
@@ -164,9 +173,12 @@ function frontis_enqueue_block_editor_assets() {
 		true
 	);
 
-	wp_localize_script('block-editor-script', 'defaultLogoData', array(
-        'logoUrl' => get_template_directory_uri() . '/assets/image/dodger-logo.webp'
-    ));
+	// var_dump(class_exists($plugin_class));
+
+	wp_localize_script( frontis_prefix( 'site-editor-script' ), 'frontis_theme_localize', array(
+		'logoUrl' => get_template_directory_uri() . '/assets/image/dodger-logo.webp',
+		'frontis_blocks' => class_exists($plugin_class)
+	) );
 
 	// Enqueue block editor styles
 
