@@ -19,7 +19,7 @@ $home_url =  home_url();
 <div class="wp-block-columns alignwide are-vertically-aligned-top" style="margin-top:0;margin-bottom:0"><!-- wp:column {"verticalAlignment":"top","width":"330px","style":{"spacing":{"blockGap":"0","padding":{"right":"0","left":"0","top":"0","bottom":"0"}}}} -->
 <div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:330px"><!-- wp:group {"className":"wp-block-column","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"","justifyContent":"left"}} -->
 <div class="wp-block-group wp-block-column" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":451,"width":"110px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|white"}}} -->
-<figure class="wp-block-image size-full is-resized"><a href="<?php echo $home_url; ?>"><img src="<?php echo esc_url($images[0]); ?>" alt="" class="wp-image-451" style="width:110px"/></a></figure>
+<figure class="wp-block-image size-full is-resized"><a href="<?php echo $home_url; ?>" aria-label="Go to homepage"><img src="<?php echo esc_url($images[0]); ?>" alt="" class="wp-image-451" style="width:110px"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"#fff9eb"}}},"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","right":"0","bottom":"var:preset|spacing|spacing-24","left":"0"}},"color":{"text":"#fff9eb"}}} -->
@@ -105,13 +105,13 @@ $home_url =  home_url();
 <div class="wp-block-columns alignwide" style="margin-top:0;margin-bottom:0"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
 <div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"},"FBHideTab":true,"FBHideMob":true} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"#fff9eb"}}},"color":{"text":"#fff9eb"}},"fontSize":"p-1"} -->
-<p class="has-text-color has-link-color has-p-1-font-size" style="color:#fff9eb"><?php echo sprintf(esc_html__('Copyright @ %1$s - WordPress Theme by %2$s', 'frontis'), esc_html($current_year), '<a href="' . esc_url($theme_author_link) . '">' . esc_html($theme_author_name) . '</a>'); ?></p>
+<p class="has-text-color has-link-color has-p-1-font-size" style="color:#fff9eb"><?php echo sprintf(esc_html__('Copyright @ %1$s - WordPress Theme by %2$s', 'frontis'), esc_html($current_year), '<a href="' . esc_url($theme_author_link) . '" aria-label="Visit ' . esc_attr($theme_author_name) . '\'s website">' . esc_html($theme_author_name) . '</a>'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"FBHideDesktop":true} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|background-white"}}},"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"background-white","fontSize":"p-1"} -->
-<p class="has-text-align-center has-background-white-color has-text-color has-link-color has-p-1-font-size" style="font-style:normal;font-weight:400"><?php echo sprintf(esc_html__('Copyright @ %1$s - WordPress Theme by %2$s', 'frontis'), esc_html($current_year), '<a href="' . esc_url($theme_author_link) . '">' . esc_html($theme_author_name) . '</a>'); ?></p>
+<p class="has-text-align-center has-background-white-color has-text-color has-link-color has-p-1-font-size" style="font-style:normal;font-weight:400"><?php echo sprintf(esc_html__('Copyright @ %1$s - WordPress Theme by %2$s', 'frontis'), esc_html($current_year), '<a href="' . esc_url($theme_author_link) . '" aria-label="Visit ' . esc_attr($theme_author_name) . '\'s website">' . esc_html($theme_author_name) . '</a>'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->

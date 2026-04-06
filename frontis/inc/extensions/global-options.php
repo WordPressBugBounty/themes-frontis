@@ -13,8 +13,14 @@ namespace Frontis;
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+// Include the plugin.php file to use is_plugin_active function.
+include_once ABSPATH . 'wp-admin/includes/plugin.php';
 
-add_filter( 'render_block', FRONTIS_NAMESPACE . 'global_options', 10, 2 );
+if ( ! is_plugin_active( 'frontis-blocks/frontis-blocks.php' ) ) {
+
+    // Hook into render_block to modify block output based on global options.
+    add_filter( 'render_block', FRONTIS_NAMESPACE . 'global_options', 10, 2 );
+}
 
 /**
  * Hide Elements.
@@ -46,28 +52,22 @@ function global_options( string $block_content, array $block ): string {
 	// Check if the header should have sticky behavior.
 	$sticky_header = ! empty( $theme_options['stickyHeader'] );
 
-
-	if ( $sticky_header && isset( $block['attrs']['slug'] ) && 'header' === $block['attrs']['slug'] ) {
-
-		$sticky_header_color_gb = ! empty( $theme_options['stickyHeaderColor'] ) ? $theme_options['stickyHeaderColor'] : '';
-	
-		// Get the post-specific sticky header color
+	if ($sticky_header && isset($block['attrs']['slug']) && 'header' === $block['attrs']['slug']) {
+		$sticky_header_color_gb = !empty($theme_options['stickyHeaderColor']) ? $theme_options['stickyHeaderColor'] : '';
 		$post_id = get_the_ID();
-		$sticky_header_color_sg = get_post_meta( $post_id, '_frontis_meta_sticky_bg_color', true );
-	
-		$sticky_header_color = ! empty( $sticky_header_color_sg ) ? $sticky_header_color_sg : $sticky_header_color_gb;
-	
-		// Output the CSS custom property dynamically
-		$custom_css = sprintf(
-			'<style>:root { --wp--preset--sticky--bg: %s; }</style>',
-			esc_attr( $sticky_header_color )
-		);
-	
-		// Add the CSS custom property to the <head>
-		echo $custom_css;
-	
-		// Add a custom class to the block
-		$block_content = add_custom_class( $block_content, 'fb-sticky-header' );
+		$sticky_header_color_sg = get_post_meta($post_id, '_frontis_meta_sticky_bg_color', true);
+
+		$sticky_header_color = !empty($sticky_header_color_sg) ? $sticky_header_color_sg : $sticky_header_color_gb;
+
+		// Save CSS to output later instead of echoing
+		add_action('wp_head', function () use ($sticky_header_color) {
+			printf(
+				'<style>:root { --wp--preset--sticky--bg: %s; }</style>',
+				esc_attr($sticky_header_color)
+			);
+		});
+
+		$block_content = add_custom_class($block_content, 'fb-sticky-header');
 	}
 	
 

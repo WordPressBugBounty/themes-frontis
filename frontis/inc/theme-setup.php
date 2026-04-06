@@ -96,13 +96,15 @@ add_action( 'init', FRONTIS_NAMESPACE . 'frontis_pattern_categories' );
  * @return void
  */
 function frontis_register_block_bindings(): void {
-    register_block_bindings_source(
-        'frontis/format',
-        [
-            'label'              => _x( 'Post format name', 'Editor block binding label', 'frontis' ),
-            'get_value_callback' => FRONTIS_NAMESPACE . 'frontis_format_binding',
-        ]
-    );
+    if ( function_exists( 'register_block_bindings_source' ) ) {
+        register_block_bindings_source(
+            'frontis/format',
+            [
+                'label'              => _x( 'Post format name', 'Editor block binding label', 'frontis' ),
+                'get_value_callback' => FRONTIS_NAMESPACE . 'frontis_format_binding',
+            ]
+        );
+    }
 }
 add_action( 'init', FRONTIS_NAMESPACE . 'frontis_register_block_bindings' );
 
@@ -131,20 +133,30 @@ add_action( 'init', FRONTIS_NAMESPACE . 'register_footer_pattern_category' );
 function fb_add_frontend_image_class($block_content, $block) {
     if ($block['blockName'] === 'core/image') {
         if (!empty($block['attrs']['imgFull'])) {
-            // Use \ before DOMDocument to use the global namespace
-            $dom = new \DOMDocument();
-            @$dom->loadHTML(mb_convert_encoding($block_content, 'HTML-ENTITIES', 'UTF-8'));
-            
-            $figures = $dom->getElementsByTagName('figure');
-            foreach ($figures as $figure) {
-                $existingClass = $figure->getAttribute('class');
-                $figure->setAttribute('class', $existingClass . ' fbimgfull');
-            }
-            
-            $body = $dom->getElementsByTagName('body')->item(0);
-            $block_content = '';
-            foreach ($body->childNodes as $node) {
-                $block_content .= $dom->saveHTML($node);
+            if ( class_exists( 'WP_HTML_Tag_Processor' ) ) {
+                $tags = new \WP_HTML_Tag_Processor( $block_content );
+                if ( $tags->next_tag( 'figure' ) ) {
+                    $tags->add_class( 'fbimgfull' );
+                    $block_content = $tags->get_updated_html();
+                }
+            } else {
+                // Fallback for older WordPress versions
+                $dom = new \DOMDocument();
+                @$dom->loadHTML(mb_convert_encoding((string) $block_content, 'HTML-ENTITIES', 'UTF-8'));
+                
+                $figures = $dom->getElementsByTagName('figure');
+                foreach ($figures as $figure) {
+                    $existingClass = $figure->getAttribute('class');
+                    $figure->setAttribute('class', trim($existingClass . ' fbimgfull'));
+                }
+                
+                $body = $dom->getElementsByTagName('body')->item(0);
+                if ($body) {
+                    $block_content = '';
+                    foreach ($body->childNodes as $node) {
+                        $block_content .= $dom->saveHTML($node);
+                    }
+                }
             }
         }
     }
@@ -337,7 +349,4 @@ function frontis_remove_notices() {
 
 // Add this action to remove notices
 add_action('admin_head', FRONTIS_NAMESPACE . 'frontis_remove_notices');
-
-// Disable the "_load_textdomain_just_in_time" notice
-add_filter( 'doing_it_wrong_trigger_error', '__return_false' );
 

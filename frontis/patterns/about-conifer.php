@@ -42,8 +42,8 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|spacing-40","right":"0","bottom":"0","left":"0"}},"typography":{"fontStyle":"normal","fontWeight":"600"},"color":{"text":"#ffffff"},"elements":{"link":{"color":{"text":"#ffffff"}}}},"fontSize":"h6"} -->
-<h3 class="wp-block-heading has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-40);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">Fast Load peed</h3>
+<!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|spacing-40","right":"0","bottom":"0","left":"0"}},"typography":{"fontStyle":"normal","fontWeight":"600"},"color":{"text":"#ffffff"},"elements":{"link":{"color":{"text":"#ffffff"}}}},"fontSize":"h6"} -->
+<h4 class="wp-block-heading has-text-color has-link-color has-h-6-font-size" style="color:#ffffff;margin-top:var(--wp--preset--spacing--spacing-40);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">Fast Load peed</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"right":"0","left":"0","bottom":"0","top":"var:preset|spacing|spacing-16"}},"color":{"text":"#f6fded"},"elements":{"link":{"color":{"text":"#f6fded"}}}},"fontSize":"p-1"} -->
@@ -66,8 +66,8 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|spacing-40","right":"0","bottom":"0","left":"0"}},"typography":{"fontStyle":"normal","fontWeight":"600"},"color":{"text":"#fefefe"},"elements":{"link":{"color":{"text":"#fefefe"}}}},"fontSize":"h6"} -->
-<h3 class="wp-block-heading has-text-color has-link-color has-h-6-font-size" style="color:#fefefe;margin-top:var(--wp--preset--spacing--spacing-40);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">User-Friendly Design</h3>
+<!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|spacing-40","right":"0","bottom":"0","left":"0"}},"typography":{"fontStyle":"normal","fontWeight":"600"},"color":{"text":"#fefefe"},"elements":{"link":{"color":{"text":"#fefefe"}}}},"fontSize":"h6"} -->
+<h4 class="wp-block-heading has-text-color has-link-color has-h-6-font-size" style="color:#fefefe;margin-top:var(--wp--preset--spacing--spacing-40);margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600">User-Friendly Design</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"right":"0","left":"0","bottom":"0","top":"var:preset|spacing|spacing-16"}},"color":{"text":"#f6fded"},"elements":{"link":{"color":{"text":"#f6fded"}}}},"fontSize":"p-1"} -->

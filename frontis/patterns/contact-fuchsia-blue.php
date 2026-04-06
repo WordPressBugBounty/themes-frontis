@@ -24,7 +24,7 @@ $images = [
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|spacing-24"}},"color":{"text":"#280b6a"},"elements":{"link":{"color":{"text":"#280b6a"}}}},"fontSize":"h5"} -->
-<h2 class="wp-block-heading has-text-color has-link-color has-h-5-font-size" style="color:#280b6a;margin-bottom:var(--wp--preset--spacing--spacing-24)">Get in touch</h2>
+<h3 class="wp-block-heading has-text-color has-link-color has-h-5-font-size" style="color:#280b6a;margin-bottom:var(--wp--preset--spacing--spacing-24)">Get in touch</h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|spacing-24","bottom":"var:preset|spacing|spacing-16"},"blockGap":"var:preset|spacing|spacing-16"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->

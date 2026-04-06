@@ -2,7 +2,7 @@
 Contributors: wpmessiah
 Requires at least: 6.4
 Tested up to: 6.8
-Stable tag: 1.1.19
+Stable tag: 1.1.24
 Requires PHP: 7.4
 License: GPL-2.0-or-later
 Tags: full-site-editing, blog, theme-options, rtl-language-support, full-width-template
@@ -144,6 +144,45 @@ License : CC0 1.0 Universal (CC0 1.0)
 
 
 == Changelog ==
+= 1.1.24 =
+* Fix: Prevented fatal error on WordPress 6.4 by adding a safe `function_exists` check for the Block Bindings API (WP 6.5+).
+* Improvement: Modernized HTML parsing for image blocks using `WP_HTML_Tag_Processor` (WP 6.2+) while safely keeping the `DOMDocument` fallback for older WordPress versions.
+* Fix: Removed `_doing_it_wrong` suppression filter to comply with WordPress.org theme review guidelines.
+* Fix: Resolved "Undefined variable" PHP warnings by correcting variable scope in Calendar and Post Date block style registrations.
+* Fix: Addressed WordPress 6.7+ notice (`_load_textdomain_just_in_time`) by properly executing `register_block_style` inside the `init` hook instead of the global scope, preventing translations from loading too early.
+
+= 1.1.23 = 
+* Fixed several minor functional inconsistencies.
+* Improved internal code stability and formatting.
+* Enhanced compatibility with existing theme and plugin settings.
+* Small UI refinements and performance tweaks.
+
+= 1.1.22 = 
+fix some minor issues
+
+= 1.1.21 = 
+* Accessibility Improvements:
+* Fixed icon-only buttons and links by adding proper aria-labels for screen readers.
+* Fixed heading structure semantic order issues (H1→H2→H3 sequence maintained).
+* Updated heading levels in template and pattern files to follow proper hierarchy.
+* Added accessibility documentation (ACCESSIBILITY.md) with color contrast guidelines.
+
+* Bug Fixes:
+* Fixed scroll-to-top button accessibility (added aria-label="Scroll to top").
+* Fixed newsletter submit button accessibility (added aria-label="Submit newsletter subscription").
+* Corrected heading levels in service patterns (H4 to H3 for proper semantic order).
+* Corrected heading levels in template-single.php (H5 to H2 for proper semantic order).
+* Fixed heading hierarchy in footer patterns (H4 to H6 for proper semantic structure).
+
+* Accessibility Issues Resolved:
+* Links without discernible names: All icon-only buttons and links now have proper aria-labels for screen reader compatibility.
+* Heading structure issues: All headings now follow proper semantic order (H1→H2→H3→H4→H5→H6) without skipping levels.
+* Color contrast documentation: Added comprehensive guidelines for accessible color combinations in ACCESSIBILITY.md.
+* Screen reader compatibility: Improved accessibility for users relying on assistive technologies.
+
+= 1.1.20 = 
+Fix: Missing DOCTYPE html issue resolved.
+
 = 1.1.15 = 
 Fix text domain warning issues
 Fix RTL issues

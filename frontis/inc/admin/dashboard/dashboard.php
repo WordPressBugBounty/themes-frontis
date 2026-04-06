@@ -42,8 +42,8 @@ function frontis_dashboard_content() {
                     <h1 class="frontis-dashboard-title"><?php esc_html_e('Welcome to Frontis', 'frontis'); ?></h1>
                     <p><?php esc_html_e('Frontis is a fast, fully customizable & beautiful WordPress theme suitable for blogs, portfolios, business websites, and WooCommerce stores. It is lightweight and offers unparalleled speed.', 'frontis'); ?></p>
                     <div class="frontis-dashboard-buttons">
-                        <a href="<?php echo $site_editor_url; ?>" class="btn-primary"><?php esc_html_e('Start Customising', 'frontis'); ?></a>
-                        <a href="<?php echo $documentation_url; ?>" target="_blank" class="btn-secondary"><?php esc_html_e('Read Documentation', 'frontis'); ?></a>
+                        <a href="<?php echo $site_editor_url; ?>" class="btn-primary" aria-label="Start Customising button for site editor"><?php esc_html_e('Start Customising', 'frontis'); ?></a>
+                        <a href="<?php echo $documentation_url; ?>" target="_blank" class="btn-secondary" aria-label="Read Documentation button opening in new tab"><?php esc_html_e('Read Documentation', 'frontis'); ?></a>
                     </div>
                 </div>
                 <div class="frontis-dashboard-video">
@@ -55,7 +55,7 @@ function frontis_dashboard_content() {
                 <div class="quick-settings">
                     <div class="header">
                         <h3><?php esc_html_e('Features at a Glance', 'frontis'); ?></h3>
-                        <a href="<?php echo $support_url; ?>" target="_blank" class="support-link"><?php esc_html_e('Get Support', 'frontis'); ?></a>
+                        <a href="<?php echo $support_url; ?>" target="_blank" class="support-link" aria-label="Get Support link opening in new tab"><?php esc_html_e('Get Support', 'frontis'); ?></a>
                     </div>
                     <div class="settings-grid">
                         <div class="setting-item">
@@ -85,35 +85,35 @@ function frontis_dashboard_content() {
                                 <h4><?php esc_html_e('Frontis Blocks', 'frontis'); ?></h4>
                                 <p><?php esc_html_e('Free WordPress Page Builder.', 'frontis'); ?></p>
                             </div>
-                            <a href="<?php echo esc_url( $frontis_blocks_url ); ?>" class="install-btn"><?php esc_html_e('Install', 'frontis'); ?></a>
+                            <a href="<?php echo esc_url( $frontis_blocks_url ); ?>" class="install-btn" aria-label="Install Frontis Blocks button"><?php esc_html_e('Install', 'frontis'); ?></a>
                         </li>
                         <li>
                             <div>
                                 <h4><?php esc_html_e('TOP Table Of Contents', 'frontis'); ?></h4>
                                 <p><?php esc_html_e('Create a table of contents for your posts and pages.', 'frontis'); ?></p>
                             </div>
-                            <a href="<?php echo esc_url( $top_table_of_contents_url ); ?>" class="install-btn"><?php esc_html_e('Install', 'frontis'); ?></a>
+                            <a href="<?php echo esc_url( $top_table_of_contents_url ); ?>" class="install-btn" aria-label="Install Top Table of Contents button"><?php esc_html_e('Install', 'frontis'); ?></a>
                         </li>
                         <li>
                             <div>
                                 <h4><?php esc_html_e('WP Mobile Bottom Menu', 'frontis'); ?></h4>
                                 <p><?php esc_html_e('Create a mobile bottom menu for your WordPress site.', 'frontis'); ?></p>
                             </div>
-                            <a href="<?php echo esc_url( $wp_mobile_bottom_menu_url ); ?>" class="install-btn"><?php esc_html_e('Install', 'frontis'); ?></a>
+                            <a href="<?php echo esc_url( $wp_mobile_bottom_menu_url ); ?>" class="install-btn" aria-label="Install WP Mobile Bottom Menu button"><?php esc_html_e('Install', 'frontis'); ?></a>
                         </li>
                         <li>
                             <div>
                                 <h4><?php esc_html_e('Ai Image Alt Text Generator for WP', 'frontis'); ?></h4>
                                 <p><?php esc_html_e('Generate alt text for your images automatically.', 'frontis'); ?></p>
                             </div>
-                            <a href="<?php echo esc_url( $ai_image_alt_text_generator_url ); ?>" class="install-btn"><?php esc_html_e('Install', 'frontis'); ?></a>
+                            <a href="<?php echo esc_url( $ai_image_alt_text_generator_url ); ?>" class="install-btn" aria-label="Install AI Image Alt Text Generator button"><?php esc_html_e('Install', 'frontis'); ?></a>
                         </li>
                         <li>
                             <div>
                                 <h4><?php esc_html_e('WP AI CoPilot', 'frontis'); ?></h4>
                                 <p><?php esc_html_e('AI content writer plugin, ChatGPT WordPress.', 'frontis'); ?></p>
                             </div>
-                            <a href="<?php echo esc_url( $wp_ai_copilot_url ); ?>" class="install-btn"><?php esc_html_e('Install', 'frontis'); ?></a>
+                            <a href="<?php echo esc_url( $wp_ai_copilot_url ); ?>" class="install-btn" aria-label="Install WP AI Copilot button"><?php esc_html_e('Install', 'frontis'); ?></a>
                         </li>
                     </ul>
                 </div>
