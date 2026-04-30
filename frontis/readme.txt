@@ -1,8 +1,8 @@
 === Frontis ===
 Contributors: wpmessiah
 Requires at least: 6.4
-Tested up to: 6.8
-Stable tag: 1.1.24
+Tested up to: 7.0
+Stable tag: 1.1.25
 Requires PHP: 7.4
 License: GPL-2.0-or-later
 Tags: full-site-editing, blog, theme-options, rtl-language-support, full-width-template
@@ -144,6 +144,14 @@ License : CC0 1.0 Universal (CC0 1.0)
 
 
 == Changelog ==
+
+= 1.1.25 =
+* Fix: Resolved footer patterns variation issues.
+* Fix: Fixed header variation attempt issues.
+* Fix: Fixed contact blue patterns display issues.
+* Fix: Resolved counter patterns issues.
+* Fix: Fixed header, footer, and counter attempt issues in base style variation.
+
 = 1.1.24 =
 * Fix: Prevented fatal error on WordPress 6.4 by adding a safe `function_exists` check for the Block Bindings API (WP 6.5+).
 * Improvement: Modernized HTML parsing for image blocks using `WP_HTML_Tag_Processor` (WP 6.2+) while safely keeping the `DOMDocument` fallback for older WordPress versions.

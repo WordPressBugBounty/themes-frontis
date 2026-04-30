@@ -12,7 +12,7 @@ $images = [
     $image_url . "assets/image/mail-open.webp",
 ];
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|spacing-64","bottom":"var:preset|spacing|spacing-120","right":"var:preset|spacing|spacing-32","left":"var:preset|spacing|spacing-32"},"margin":{"top":"0","bottom":"0"}},"color":{"background":"#ffffff"}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"categories":["contact-from"],"patternName":"frontis/contact-blue","name":"Contact Blue"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|spacing-64","bottom":"var:preset|spacing|spacing-120","right":"var:preset|spacing|spacing-32","left":"var:preset|spacing|spacing-32"},"margin":{"top":"0","bottom":"0"}},"color":{"background":"#ffffff"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-background" style="background-color:#ffffff;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--spacing-64);padding-right:var(--wp--preset--spacing--spacing-32);padding-bottom:var(--wp--preset--spacing--spacing-120);padding-left:var(--wp--preset--spacing--spacing-32)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|spacing-32"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained"}} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":1,"style":{"color":{"text":"#0b2640"},"elements":{"link":{"color":{"text":"#0b2640"}}}},"fontSize":"h2"} -->
@@ -24,7 +24,7 @@ $images = [
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|spacing-24"}},"color":{"text":"#0b2640"},"elements":{"link":{"color":{"text":"#0b2640"}}}},"fontSize":"h5"} -->
-<h3 class="wp-block-heading has-text-color has-link-color has-h-5-font-size" style="color:#0b2640;margin-bottom:var(--wp--preset--spacing--spacing-24)">Get in touch</h3>
+<h2 class="wp-block-heading has-text-color has-link-color has-h-5-font-size" style="color:#0b2640;margin-bottom:var(--wp--preset--spacing--spacing-24)">Get in touch</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|spacing-24","bottom":"var:preset|spacing|spacing-16"},"blockGap":"var:preset|spacing|spacing-16"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->

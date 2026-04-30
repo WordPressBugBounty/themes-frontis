@@ -12,7 +12,7 @@ $images = [
     $image_url . "assets/image/mail-open.webp",
 ];
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|spacing-64","bottom":"var:preset|spacing|spacing-120","right":"var:preset|spacing|spacing-32","left":"var:preset|spacing|spacing-32"},"margin":{"top":"0","bottom":"0"}},"color":{"background":"#121b03"}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"categories":["contact-from"],"patternName":"frontis/contact-conifer","name":"Contact Conifer"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|spacing-64","bottom":"var:preset|spacing|spacing-120","right":"var:preset|spacing|spacing-32","left":"var:preset|spacing|spacing-32"},"margin":{"top":"0","bottom":"0"}},"color":{"background":"#121b03"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-background" style="background-color:#121b03;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--spacing-64);padding-right:var(--wp--preset--spacing--spacing-32);padding-bottom:var(--wp--preset--spacing--spacing-120);padding-left:var(--wp--preset--spacing--spacing-32)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|spacing-32"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained"}} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":1,"style":{"color":{"text":"#ffffff"},"elements":{"link":{"color":{"text":"#ffffff"}}}},"fontSize":"h2"} -->
@@ -23,14 +23,14 @@ $images = [
 <p class="has-text-color has-link-color" style="color:#f6fded;margin-top:var(--wp--preset--spacing--spacing-16);margin-bottom:var(--wp--preset--spacing--spacing-40)">Mental models are simple expressions of complex processes or straightforward relationships.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|spacing-24"}},"color":{"text":"#ffffff"},"elements":{"link":{"color":{"text":"#ffffff"}}}},"fontSize":"h5"} -->
-<h3 class="wp-block-heading has-text-color has-link-color has-h-5-font-size" style="color:#ffffff;margin-bottom:var(--wp--preset--spacing--spacing-24)">Get in touch</h3>
+<!-- wp:heading {"level":3,"className":"wp-block-heading has-text-color has-link-color has-h-5-font-size","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+<h3 class="wp-block-heading has-text-color has-link-color has-h-5-font-size has-white-color">Get in touch</h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|spacing-24","bottom":"var:preset|spacing|spacing-16"},"blockGap":"var:preset|spacing|spacing-16"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--spacing-24);margin-bottom:var(--wp--preset--spacing--spacing-16)"><!-- wp:group {"className":"contact-info-icon","style":{"spacing":{"padding":{"top":"var:preset|spacing|spacing-16","bottom":"var:preset|spacing|spacing-16","left":"var:preset|spacing|spacing-16","right":"var:preset|spacing|spacing-16"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"border":{"radius":"50px"},"layout":{"selfStretch":"fit","flexSize":null},"dimensions":{"minHeight":""},"color":{"background":"#a9e94b"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group contact-info-icon has-background" style="border-radius:50px;background-color:#a9e94b;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--spacing-16);padding-right:var(--wp--preset--spacing--spacing-16);padding-bottom:var(--wp--preset--spacing--spacing-16);padding-left:var(--wp--preset--spacing--spacing-16)"><!-- wp:image {"id":350,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url($images[0]); ?>" alt="" class="wp-image-350"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url($images[0])?>" alt="" class="wp-image-350"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -42,7 +42,7 @@ $images = [
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","bottom":"var:preset|spacing|spacing-16"},"blockGap":"var:preset|spacing|spacing-16"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--spacing-16);margin-bottom:var(--wp--preset--spacing--spacing-16)"><!-- wp:group {"className":"contact-info-icon","style":{"spacing":{"padding":{"top":"var:preset|spacing|spacing-16","bottom":"var:preset|spacing|spacing-16","left":"var:preset|spacing|spacing-16","right":"var:preset|spacing|spacing-16"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"border":{"radius":"50px"},"color":{"background":"#a9e94b"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group contact-info-icon has-background" style="border-radius:50px;background-color:#a9e94b;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--spacing-16);padding-right:var(--wp--preset--spacing--spacing-16);padding-bottom:var(--wp--preset--spacing--spacing-16);padding-left:var(--wp--preset--spacing--spacing-16)"><!-- wp:image {"id":353,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url($images[1]); ?>" alt="" class="wp-image-353"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url($images[1])?>" alt="" class="wp-image-353"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -54,7 +54,7 @@ $images = [
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|spacing-16","bottom":"var:preset|spacing|spacing-16"},"blockGap":"var:preset|spacing|spacing-16"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--spacing-16);margin-bottom:var(--wp--preset--spacing--spacing-16)"><!-- wp:group {"className":"contact-info-icon","style":{"spacing":{"padding":{"top":"var:preset|spacing|spacing-16","bottom":"var:preset|spacing|spacing-16","left":"var:preset|spacing|spacing-16","right":"var:preset|spacing|spacing-16"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"border":{"radius":"50px"},"color":{"background":"#a9e94b"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group contact-info-icon has-background" style="border-radius:50px;background-color:#a9e94b;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--spacing-16);padding-right:var(--wp--preset--spacing--spacing-16);padding-bottom:var(--wp--preset--spacing--spacing-16);padding-left:var(--wp--preset--spacing--spacing-16)"><!-- wp:image {"id":354,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url($images[2]); ?>" alt="" class="wp-image-354"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url($images[2])?>" alt="" class="wp-image-354"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
